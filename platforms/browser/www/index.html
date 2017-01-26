@@ -12,97 +12,6 @@
     <body>
         <script type="text/javascript" src="cordova.js"></script>
 
-<script id="country" type="text/x-handlebars-template">		
-
-       <option value="null" disabled="disabled" selected="selected">select your county</option>
-{{#each country}}
-      <option value="{{countryid}}">{{country}}</option> 
-      
-  {{/each}}    
-
-</script>
-
-<script id="sexs" type="text/x-handlebars-template">		
-
-       <option disabled="disabled" selected="selected">select your gender</option>
-{{#each sex}}
-      <option value="{{id}}">{{Sname}}</option> 
-      
-  {{/each}}    
-
-</script>
-
-<script id="rag" type="text/x-handlebars-template">		
-
-       <option disabled="disabled" selected="selected">select your ragion</option>
-{{#each region}}
-      <option value="{{id}}">{{Regions}}</option> 
-      
-  {{/each}}    
-
-</script>
-
-<script id="iqm" type="text/x-handlebars-template">		
-
-       <option disabled="disabled" selected="selected">--select--</option>
-{{#each iqama}}
-      <option value="{{id}}">{{Iname}}</option> 
-      
-  {{/each}}    
-
-</script>
-
-<script id="city" type="text/x-handlebars-template">		
-
-       <option disabled="disabled" selected="selected" value="">select your city</option>
-{{#each thatcity}}
-      <option value="{{id}}">{{citys}}</option> 
-      
-  {{/each}}    
-
-</script>
-
-
-<script id="stat" type="text/x-handlebars-template">		
-
-       <option disabled="disabled" selected="selected" value="">select your status</option>
-{{#each status}}
-      <option value="{{id}}">{{Mname}}</option> 
-      
-  {{/each}}    
-
-</script>
-<script id="lvl" type="text/x-handlebars-template">		
-
-       <option disabled="disabled" selected="selected" value="">select your level</option>
-{{#each level}}
-      <option value="{{id}}">{{Lname}}</option> 
-      
-  {{/each}}    
-
-</script>
-
-<script id="inter" type="text/x-handlebars-template">		
-
-       <option disabled="disabled" selected="selected" value="">select your interest</option>
-{{#each hop}}
-      <option value="{{id}}">{{Hname}}</option> 
-      
-  {{/each}}    
-
-</script>
-
-<script id="jobs" type="text/x-handlebars-template">		
-
-       <option disabled="disabled" selected="selected" value="">select your job</option>
-{{#each job}}
-      <option value="{{id}}">{{Jname}}</option> 
-      
-  {{/each}}    
-
-</script>
-
-
 
 
     <nav class="navbar navbar-default">
@@ -400,6 +309,99 @@
             </div>
         </div>
     </footer>
+        
+        <script id="country" type="text/x-handlebars-template">		
+
+       <option value="null" disabled="disabled" selected="selected">select your county</option>
+{{#each country}}
+      <option value="{{countryid}}">{{country}}</option> 
+      
+  {{/each}}    
+
+</script>
+
+<script id="sexs" type="text/x-handlebars-template">		
+
+       <option disabled="disabled" selected="selected">select your gender</option>
+{{#each sex}}
+      <option value="{{id}}">{{Sname}}</option> 
+      
+  {{/each}}    
+
+</script>
+
+<script id="rag" type="text/x-handlebars-template">		
+
+       <option disabled="disabled" selected="selected">select your ragion</option>
+{{#each region}}
+      <option value="{{id}}">{{Regions}}</option> 
+      
+  {{/each}}    
+
+</script>
+
+<script id="iqm" type="text/x-handlebars-template">		
+
+       <option disabled="disabled" selected="selected">--select--</option>
+{{#each iqama}}
+      <option value="{{id}}">{{Iname}}</option> 
+      
+  {{/each}}    
+
+</script>
+
+<script id="city" type="text/x-handlebars-template">		
+
+       <option disabled="disabled" selected="selected" value="">select your city</option>
+{{#each thatcity}}
+      <option value="{{id}}">{{citys}}</option> 
+      
+  {{/each}}    
+
+</script>
+
+
+<script id="stat" type="text/x-handlebars-template">		
+
+       <option disabled="disabled" selected="selected" value="">select your status</option>
+{{#each status}}
+      <option value="{{id}}">{{Mname}}</option> 
+      
+  {{/each}}    
+
+</script>
+<script id="lvl" type="text/x-handlebars-template">		
+
+       <option disabled="disabled" selected="selected" value="">select your level</option>
+{{#each level}}
+      <option value="{{id}}">{{Lname}}</option> 
+      
+  {{/each}}    
+
+</script>
+
+<script id="inter" type="text/x-handlebars-template">		
+
+       <option disabled="disabled" selected="selected" value="">select your interest</option>
+{{#each hop}}
+      <option value="{{id}}">{{Hname}}</option> 
+      
+  {{/each}}    
+
+</script>
+
+<script id="jobs" type="text/x-handlebars-template">		
+
+       <option disabled="disabled" selected="selected" value="">select your job</option>
+{{#each job}}
+      <option value="{{id}}">{{Jname}}</option> 
+      
+  {{/each}}    
+
+</script>
+
+
+
     	
     	<script src="js/jQuery.2.1.js"></script>
 		<script src="js/handlebars-v3.0.3.js"></script>
