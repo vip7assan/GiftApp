@@ -69,6 +69,7 @@ mas.done(function(data){
 
             $("#job").html( html );
 	
+	alert("kkk")
 	
 	console.log(data);
 	
